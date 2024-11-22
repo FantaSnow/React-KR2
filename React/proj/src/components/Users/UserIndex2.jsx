@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import TableUser from "./Components/TableUser";
 import Loading from "./Components/Loading";
 import { getUsers } from "../../utils/apiMethods";
-
 const UserIndex = () => {
   const [userList, setUserList] = useState([]);
   const [loading, setLoading] = useState(false);

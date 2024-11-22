@@ -1,10 +1,10 @@
 import "./App.css";
-import UserIndex from "./Users/components/UserIndex";
+import UserIndex from "./components/Users/UserIndex2";
 
 function App() {
   return (
     <>
-      <UserIndex></UserIndex>
+      <UserIndex />
     </>
   );
 }
