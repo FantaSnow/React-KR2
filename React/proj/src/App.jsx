@@ -1,5 +1,5 @@
 import "./App.css";
-import UserIndex from "./components/Users/userIndex";
+import UserIndex from "./Users/components/UserIndex";
 
 function App() {
   return (
